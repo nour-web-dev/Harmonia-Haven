@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia</title>
+    <link rel="website icon" type="png" href="harmonia.png">
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="container">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="forest.mp4" type="video/mp4">
+        </video>
+      <div class="content">
+        <h1>Your Daily Dose of Wellness</h1>
+        <p class="tagline">Find balance, breathe deeply, and embrace positivity.</p>
+        <!-- Navigation Bar -->
+        <nav class="nav-bar">
+            <a href="index.html" class="nav-link ">Home</a>
+            <a href="affirmations.html" class="nav-link">Affirmations</a>
+            <a href="activities.html" class="nav-link">Activities</a>
+        </nav>
+      </div>
+    </header>
+
+
+    <!-- Main Content -->
+    <main>
+        <!-- Daily Quote Section -->
+        <section class="quote-container">
+            <p id="quote">
+                <i class="fa-solid fa-quote-left"></i>
+                <span>Loading your daily inspiration...</span>
+                <i class="fa-solid fa-quote-right"></i>
+            </p>
+            <p id="author"></p>
+            <button id="new-quote-btn">🎐 Get New Quote 🎐</button>
+        </section>
+
+        <!-- Breathing Exercise Section -->
+        <section class="breathing-exercise">
+            <h2>Start Your Breathing Exercise</h2>
+            <p class="breathing-description">Follow the instructions below for a calming breathing exercise.</p>
+            <div class="breathing-visual">
+                <div id="breathing-circle"></div>
+            </div>
+            <p id="breathing-instructions"></p>
+            <button id="start-breathing-btn">Start Breathing Exercise</button>
+        </section>
+
+        <!-- Quick Links Section -->
+        <section class="quick-links">
+            <h2>Quick Links</h2>
+            <div class="links-container">
+                <a href="affirmations.html" class="quick-link-card">
+                <div class="card-content">
+                    <h3>Get Affirmations</h3>
+                    <img src="exercise.gif" alt="Affirmations">
+                    <p>Start your day with positive affirmations and inner peace.</p>
+                </div></a>
+                <a href="activities.html" class="quick-link-card">
+                <div class="card-content">
+                    <h3>Find Activities</h3>
+                    <img src="yoga.gif" alt="Activities">
+                    <p>Explore activities that bring joy and relaxation.</p>
+                </div></a>
+            </div>
+        </section>
+
+        <!-- About Harmonia Section -->
+        <section id="about-project">
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="about-section.jpeg" alt="Mind-Body-Wellness">
+                </div>
+             <div class="about-content">
+                <h2>About Harmonia</h2>
+                <p>Harmonia is your space for mind and body wellness,
+                    where positivity and self-care come together.
+                    How we feel affects how we think. How we think affects how we act.
+                    How we act affects how we feel. It's all connected.
+                    Through daily affirmations, mindful activities, and reflective
+                    journaling, Harmonia helps you cultivate a balanced and peaceful
+                    mindset. Whether you're seeking inspiration, relaxation, or a moment
+                    of self-reflection, let Harmonia be your guide to a healthier, happier you.
+                </p>
+             </div>
+            </div>
+        </section>
+
+        <!-- Additional Info Section -->
+        <section class="additional-info">
+            <h2>Why Wellness Matters</h2>
+            <p>Wellness is more than just physical health; it is a state 
+                of well-being that includes mental, emotional, and social 
+                health. Achieving balance in all areas of life allows you 
+                to thrive, be productive, and stay positive. Wellness 
+                involves nurturing your body with exercise, a balanced 
+                diet, and proper rest, while also focusing on mental 
+                health by managing stress and practicing mindfulness. 
+                Prioritizing wellness improves your resilience, enhances 
+                your mood, and leads to a fulfilling life.</p>
+            <h2>Daily Tips for a Better Life</h2>
+            <table class="daily-tips-table">
+                <thead>
+                    <tr>
+                        <th>Tip</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                <td><strong>Hydrate First Thing</strong> </td>
+                <td>Start your morning with a glass of water to hydrate 
+                    your body and jumpstart your metabolism.</td>
+                    </tr>
+                    <tr>
+                <td><strong>Take a Walk</strong></td> <td>Take a 10-minute walk 
+                    outdoors for fresh air, a mood boost, and better focus.</td>
+                    </tr>
+                    <tr>
+                <td><strong>Stretch Your Body</strong></td> <td>Stretching improves
+                     flexibility, reduces tension, and helps relieve stress.</td>
+                     </tr>
+                     <tr>
+                <td><strong>Eat Mindfully</strong></td> <td>Pay attention to what you 
+                    eat and enjoy your meals without distractions for better
+                     digestion and satisfaction.</td>
+                     </tr>
+                     <tr>
+                <td><strong>Practice Gratitude</strong></td> <td>Write down three things 
+                    you're grateful for each day to boost your mental and emotional 
+                    well-being.</td>
+                    </tr>
+                    <tr>
+                <td><strong>Prioritize Sleep</strong></td> <td>Aim for 7-9
+                     hours of sleep each night to restore your body
+                      and mind for the day ahead.</td>
+                      </tr>
+                      <tr>
+                <td><strong>Unplug from Technology</strong></td> <td>Spend 
+                    at least an hour a day away from screens to 
+                    recharge and connect with the present moment.</td>
+                    </tr>
+            </tbody>
+            </table>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2025 Harmonia. All rights reserved.</p>
+    </footer>
+    
+</body>
+    <!-- External JavaScript-->
+    <script src="harmonia-core.js"></script>
+</html>

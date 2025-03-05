@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harmonia</title>
+    <link rel="website icon" type="png" href="harmonia.png">
+    <!-- External Stylesheets -->
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="container">
+        <video autoplay loop muted plays-inline class="background-clip">
+            <source src="lake.mp4" type="video/mp4">
+        </video>
+        <div class="content"> 
+            <h1>Daily Affirmations for a Positive Mindset</h1>
+            <p class="tagline">Transform your thoughts, transform your life.</p>
+            <!-- Navigation Bar -->
+            <nav class="nav-bar">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="affirmations.html" class="nav-link">Affirmations</a>
+                <a href="activities.html" class="nav-link">Activities</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Mental Health Tips Section -->
+        <section class="mental-health-tips">
+           <h2>Tips for a Healthy Mind</h2>
+           <div class="tips-container">
+               <!-- Tips Card -->
+               <div class="tip-card">
+                   <i class="fa-solid fa-lungs"></i>
+                   <h3>Practice Deep Breathing</h3>
+                   <p>Take a few minutes each day to practice deep breathing 
+                       exercises. Inhale deeply through your nose, hold for a few 
+                       seconds, and exhale slowly through your mouth.
+                   </p>
+               </div>
+               <div class="tip-card">
+                   <i class="fa-solid fa-box-open "></i>
+                   <h3>Create a Gratitude Box</h3>
+                   <p>Write down things you're grateful for on small 
+                       pieces of paper
+                       and place them in a box. Pull out a note whenever 
+                       you need a reminder
+                       of the good things in your life.
+                   </p>
+               </div>
+        
+               <div class="tip-card">
+                   <i class="fa-solid fa-pen-to-square"></i>
+                   <h3>Try Journaling</h3>
+                   <p>Spend a few minutes each day writing down your 
+                       thoughts and feelings. Journaling can help you 
+                       process emotions and gain clarity.
+                   </p>
+               </div>
+               <div class="tip-card">
+                   <i class="fa-solid fa-hand"></i>
+                   <h3>Set Boundaries</h3>
+                   <p>Learn to say "no" when you need to. Setting boundaries
+                       with others can help you protect your mental health and avoid 
+                       burnout.
+                   </p>
+               </div>
+               <div class="tip-card">
+                   <i class="fa-solid fa-brain"></i>
+                   <h3>Practice Mindfulness</h3>
+                   <p>Spend a few minutes each day focusing on the present 
+                       moment. Pay attention to your senses-what you see, hear,
+                       smell, taste, and touch.
+                   </p>
+               </div>
+               <div class="tip-card">
+                   <i class="fa-solid fa-users"></i>
+                   <h3>Connect with Loved Ones</h3>
+                   <p>Reach out to friends or family members for a chat or a virtual
+                       hangout. Social connections are essential for mental
+                       well-being.
+                   </p>
+               </div>
+           </div>
+        </section>
+
+        <!-- Affirmation Section -->
+        <section id="affirmation-section">
+            <div class="affirmation-card">
+                <h2>Your Daily Affirmations</h2>
+                <p id="affirmation-text">----------</p>
+                <button id="get-affirmation-btn">Get Another Affirmation</button>
+                <i class="fa-regular fa-heart heart-icon" id="save-affirmation-btn" title="Save Affirmation" ></i>
+            </div>
+        </section>
+
+        <!-- Reflection Section -->
+        <section id="reflection-section">
+           <div class="reflection-card">
+               <h2>Reflection Journal</h2>
+               <p>How does this affirmation make you feel?</p>
+               <textarea id="reflection-input" placeholder=
+               "Type your reflection here..."></textarea>
+               <i class="fa-regular fa-heart heart-icon" id="save-reflection-btn" title="Save Reflection" ></i>
+            </div>
+        </section>
+
+        <div id="popup" class="popup">
+            <h2></h2>
+        </div>
+        <section id="combined-favorites-section" class="hidden-favorites">
+              <h2>Your Saved Affirmations and Reflections</h2>
+              <div id="combined-favorites-list"></div>
+        </section>
+    </main>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; Harmonia. All rights reserved.</p>
+    </footer>
+    
+</body>
+    <!-- External JavaScript -->
+    <script src="harmonia-affirm.js"></script>
+</html>
